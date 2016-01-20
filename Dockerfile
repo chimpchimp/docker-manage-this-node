@@ -1,7 +1,5 @@
 FROM node:4.2
 
-RUN apt-get update
-
 RUN git clone https://github.com/onedr0p/manage-this-node.git /opt/manage-this
 
 WORKDIR /opt/manage-this
